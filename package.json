@@ -1,0 +1,52 @@
+{
+  "name": "@shoopiapp/paguelofacil",
+  "version": "0.0.1",
+  "description": "Unofficial package to connect Paguelo Facil rest api transactions.",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "jest": {
+    "verbose": true,
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.+(ts|tsx|js)",
+      "**/?(*.)+(spec|test).+(ts|tsx|js)"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest --setupFiles dotenv/config",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ShoopiApp/PagueloFacil.git"
+  },
+  "keywords": [
+    "paguelofacil",
+    "paguelo",
+    "facil"
+  ],
+  "author": "Elvin Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.11",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "bugs": {
+    "url": "https://github.com/ShoopiApp/PagueloFacil.git/issues"
+  },
+  "homepage": "https://github.com/ShoopiApp/PagueloFacil.git#readme"
+}
