@@ -111,7 +111,7 @@ const  paymentInfo  =  {
     phone:  "61234567",
     concept:  "concept",
     description:  "description",
-    codOper: codOper
+    codOper: "SANDBOX_AUTH-XXXXXXXXX"
 }
 const  response  =  await pagueloFacil.Capture(paymentInfo);
 
