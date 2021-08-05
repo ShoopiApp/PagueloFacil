@@ -1,6 +1,6 @@
 {
   "name": "@shoopiapp/paguelofacil",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Unofficial package to connect Paguelo Facil rest api transactions.",
   "main": "dist/index.js",
   "types": "src/index.ts",

@@ -111,6 +111,7 @@ const  paymentInfo  =  {
     phone:  "61234567",
     concept:  "concept",
     description:  "description",
+    codOper: codOper
 }
 const  response  =  await pagueloFacil.Capture(paymentInfo);
 

@@ -71,15 +71,7 @@ describe('Test for the package', () => {
             phone: '6123456789',
             concept: 'testing AUTH',
             description: 'testing CAPTURE',
-            codOper: codOper,
-        }, {
-            cardNumber: "5517747952039692",
-            expMonth: "1",
-            expYear: "30",
-            cvv: "123",
-            firstName: "FirstName",
-            lastName: "LastName",
-            cardType: "MASTERCARD"
+            codOper: codOper
         })
         expect(response.success).toBeTruthy()
         codOper = response.data.codOper;
